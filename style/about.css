@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat' , sans-serif;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Colors
+#FFE0C2 peach
+#B3DAFE blue
+#B3DAFE light blue
+#50aaff dark blue
+#a2e1ff brain blue
+*/
+
+button {
+    padding: 10px 40px;
+    background-color: #D9EDFF;
+    border-radius: 25px;
+    border: solid 3px #B3DAFE;
+    transition: .4s;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #50aaff;
+    cursor: pointer;
+}
+
+
+/* Header */
+
+#lotus-logo {
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    gap: 40px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #50aaff;
+}
+
+header a u {
+    text-decoration: none;
+    border-bottom: solid 3px #FFE0C2;
+}
