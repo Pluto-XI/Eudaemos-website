@@ -64,7 +64,7 @@ a {
     transition: 0.3s;
 }
 
-header ul a:hover {
+a:hover {
     color: #50aaff;
 }
 
@@ -77,9 +77,9 @@ header a u {
 
 #herobanner {
     display: block;
-    height: 300px;
+    height: 400px;
     width: auto;
-    padding: 0 380px;
+    padding: 0 450px;
     background-color: #ffd5ae;
     margin: 25px auto;
     border-radius: 20px;
@@ -123,8 +123,8 @@ h1 u {
 }
 
 .photo {
+    height: 400px;
     width: auto;
-    height: 250px;
     padding: 0 80px;
     background-color: #ffd5ae;
     border-radius: 25px;
@@ -154,6 +154,7 @@ h1 u {
 .wrapper {
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
 #emailbutton {
@@ -163,7 +164,7 @@ h1 u {
 }
 
 .inputbar {
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     padding: 3px 10px;
@@ -183,15 +184,119 @@ h1 u {
     justify-content: space-between;
 }
 
+/* Principles Sections */
+
+#principles {
+    margin-top: 40px;
+    background-color: #ffd5ae;
+    height: 450px;
+    font-weight: bold;
+}
+
+#principles h2 {
+    padding: 30px;
+    text-align: center;
+}
+
+#principles u {
+    text-decoration: none;
+    border-bottom: solid 4px #a2e1ff;
+}
+
+.principles-container {
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.principles-container h3 {
+    margin-bottom: 20px;
+}
+
+#orange-bar {
+    height: auto;
+    width: 30px;
+    background-color: orange;
+    margin-left: 20px;
+}
+
+#purpose {
+    display: flex;
+    width: 500px;
+}
+
+.principles-item {
+    width: 300px;
+}
+
 /* Statistics sections */
 
 #statistics {
     background-color: #ffd5ae;
     margin-top: 30px;
     padding: 10px 60px;
+    height: 400px;
 }
 
-#statistics h2 {
+#title, .stat-container {
+    text-align: center;
+    font-weight: bold;
+}
+
+.stat-container {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 200px;
+    align-items: center;
+}
+
+#sources {
+    margin-top: 80px;
+    margin-left: -20px;
+}
+
+.stats {
+    margin-top: 50px;
+    width: 400px;
+}
+
+/* Footer */
+footer {
+    background-color: #a2e1ff;
+}
+
+#footer-logo {
+    height: 150px;
+    width: auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#footer {
+    margin-top: 150px;
+    padding: 30px;
+    display: flex;
+    height: 300px;
+    gap: 100px;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 20px;
+    border-bottom: solid 5px #50aaff;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+#copyright {
     text-align: center;
     font-weight: bold;
 }
