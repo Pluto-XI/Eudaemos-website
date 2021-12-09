@@ -250,7 +250,7 @@ h1 u {
     justify-content: center;
     font-size: 30px;
     gap: 200px;
-    align-items: center;
+    align-items: baseline;
 }
 
 #sources {
